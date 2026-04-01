@@ -55,7 +55,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
-- **GitHub Profile:**  ⏳
+- **GitHub Profile:** https://github.com/Abigail-2418
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** [Add your Figma username here] ⏳
 - **CodePen:** https://codepen.io/Abigail_2418
