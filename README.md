@@ -58,7 +58,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **GitHub Profile:**  ⏳
 - **Workspace Repository:** [Add your repository URL here] ⏳
 - **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **CodePen:** https://codepen.io/Abigail_2418
 - **GitHub Student Pack:** [Confirm approval status here] ⏳
 
 ### **How to Update Your Toolkit:**
