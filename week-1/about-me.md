@@ -3,7 +3,7 @@
 ## Background & Skills
 
 **1. Major:**  
-[Your answer here]
+VCD
 
 **2. Design courses completed:**  
 [X] DESN 100  
