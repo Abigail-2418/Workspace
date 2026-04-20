@@ -7,22 +7,18 @@ This is where I show off my coding skills. I am a VCD student at Eastern Washing
 
 ---
 
-## 👤 **Student Information**
-**Instructor:** Professor Travis Masingale
-**Email:** tmasingale@ewu.edu
-**Course:** DESN368 CODE + DESIGN 1
-**Quarter:** Spring 2026  
+## **What is Inside**
+- week-1 — Newspaper layout, Lost Pet flyer, Favorite Band page
+- week-2 — HTML 101 exercises, Recipe page, HTML Skeleton
+- week-3 — CSS foundations, Recipe styling 
 
 ---
 
 ## 🛠️ **My Toolkit**
-*Update these links as you complete each tool setup:*
 - **GitHub Profile:** https://github.com/Abigail-2418
 - **Workspace Repository:** https://github.com/Abigail-2418/Workspace
 - **Figma:** Abigail
 - **CodePen:** https://codepen.io/Abigail_2418
-- **GitHub Student Pack:** Pending
-
 
 ---
 
@@ -30,7 +26,7 @@ This is where I show off my coding skills. I am a VCD student at Eastern Washing
 
 - [X] **Week 1:** https://github.com/Abigail-2418/Workspace/tree/main/week-1
 - [X] **Week 2:** https://github.com/Abigail-2418/Workspace/tree/main/week-2
-- [ ] **Week 3:** D0cum3nt 4rch1t3ctur3
+- [ ] **Week 3:** 
 - [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
 - [ ] **Week 5:** F0rm5 & 1nput5
 - [ ] **Week 6:** Fl3xb0x M45t3ry
