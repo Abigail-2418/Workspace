@@ -1,0 +1,96 @@
+body {
+font-family: 'Orbitron', 'Arial', sans-serif;
+    background-color: #0a0f1c;
+    color: #d9e1ec;
+    line-height: 1.7;
+    margin: 0;
+    padding: 40px;
+}
+
+.book-header {
+text-align: center;
+    margin-bottom: 50px;
+}
+
+.genre-label {
+font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6c7a89;
+}
+
+.book-title {
+font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #00e5ff;
+    margin: 10px 0;
+}
+
+.book-author {
+font-size: 16px;
+    font-style: italic;
+    color: #9fb3c8;
+    margin-bottom: 20px;
+}
+
+.chapter-number {
+font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7f8fa6;
+}
+
+.chapter-title {
+font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #66fcf1;
+    margin-bottom: 10px;
+}
+
+.book-meta {
+font-size: 13px;
+    color: #5c6b7a;
+    letter-spacing: 1px;
+}
+
+.book-date {
+font-size: 13px;
+    color: #5c6b7a;
+    letter-spacing: 1px;
+}
+
+.book-excerpt {
+ max-width: 700px;
+    margin: 0 60px;
+}
+
+.book-excerpt p {
+font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.typography-analysis {
+ max-width: 700px;
+    margin: 0;
+    padding-top: 30px;
+    border-top: 1px solid #1f2a3a;
+}
+
+.typography-analysis h2 {
+font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00e5ff;
+    margin-bottom: 15px;
+}
+
+.typography-analysis p {
+font-size: 16px;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
