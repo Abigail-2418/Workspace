@@ -112,6 +112,10 @@ footer {
     opacity: 100%;
 }
 
+footer p {
+    opacity: 100%;
+}
+
 /* Footer link */
 footer a {
     color: #1A90FF;
