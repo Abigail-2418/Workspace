@@ -9,7 +9,7 @@ body {
 /* Main container */
 .container {
     width: 820px;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 /* Hero section */
