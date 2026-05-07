@@ -61,6 +61,7 @@ blockquote {
     text-align: right;
     margin-top: 15px;
     font-size: 18px;
+    opacity: 100%;
 }
 
 /* Timeline section */
@@ -98,7 +99,7 @@ h2 {
 p {
     font-size: 13px;
     line-height: 1.5;
-    opacity: 100%; 
+    opacity: 70%; 
 }
 
 /* Footer */
