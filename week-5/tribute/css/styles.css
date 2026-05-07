@@ -125,11 +125,6 @@ footer a:hover {
     color: white;
 }
 
-/* Visited */
-footer a:visited {
-    color: #bb72ff;
-}
-
 /* Active */
 footer a:active {
     color: #fff0d1;
