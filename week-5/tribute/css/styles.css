@@ -1,155 +1,116 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
+/* Page */
 body {
     background-color: #CFCEC3;
     font-family: 'Jacques Francois', serif;
     color: #252223;
-    font-size: 18px;
-    line-height: 1.6;
+    margin: 0;
 }
 
-
+/* Main container */
 .container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+    width: 820px;
+    margin-left: 20px;
 }
 
-
+/* Hero section */
 #hero {
     text-align: center;
-    padding: 40px 20px;
+    padding-top: 20px;
 }
 
-
+/* Main title */
 h1 {
     font-family: 'Italiana', serif;
-    font-size: 56px;
+    font-size: 70px;
     font-weight: 400;
-    color: #252223;
     margin-bottom: 20px;
-    line-height: 1.2;
 }
 
-
-h2 {
-    font-family: 'Italiana', serif;
-    font-size: 30px;
-    font-weight: 400;
-    color: #252223;
-    margin-bottom: 10px;
-    line-height: 1.2;
-}
-
-
-figure {
-    margin: 20px auto;
-    padding: 15px;
-}
-
-
+/* Image */
 figure img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #252223;
+    width: 560px;
 }
 
-
+/* Caption */
 figcaption {
-    margin-top: 10px;
-    font-size: 14px;
+    font-size: 19px;
+    margin-top: 12px;
+    margin-bottom: 40px;
 }
 
-
+/* Quote section */
 .quote {
     background-color: #252223;
     color: white;
-    max-width: 700px;
-    margin: 50px auto;
-    padding: 30px;
-    text-align: center;
+    width: 510px;
+    padding: 25px;
+    margin-left: 125px;
+    margin-bottom: 80px;
     border: 2px solid #252223;
 }
 
-
-.quote blockquote {
-    font-size: 20px;
-    margin-bottom: 10px;
+/* Quote text */
+blockquote {
+  text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
-
+/* Quote author */
 .quote-author {
-    font-size: 14px;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
-
+/* Timeline section */
 #Timeline {
-    padding: 40px 20px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-
-#Timeline article {
-    margin-bottom: 50px;
+/* Timeline blocks */
+article {
+    margin-bottom: 70px;
 }
 
-
+/* Left timeline */
 .left {
-    max-width: 500px;
-    margin-right: auto;
+    width: 250px;
 }
 
-
+/* Right timeline */
 .right {
-    max-width: 500px;
-    margin-left: auto;
+    width: 250px;
+    margin-left: 320px;
 }
 
-
-p {
-    font-size: 16px;
-}
-
-
-.achievements {
-    padding: 40px 20px;
-}
-
-
-.achievements ul {
-    padding-left: 30px;
-}
-
-
-.achievements li {
+/* Years */
+h2 {
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+    font-weight: 400;
     margin-bottom: 10px;
-    padding-left: 5px;
-    border-left: 3px solid #252223;
 }
 
+/* Paragraphs */
+p {
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 100%; 
+}
 
+/* Footer */
 footer {
     background-color: #252223;
     color: white;
-    text-align: center;
-    padding: 30px 20px;
-    margin-top: 40px;
-    border-top: 2px solid #252223;
+    width: 510px;
+    padding: 35px;
+    margin-top: 80px;
+    margin-left: 125px;
 }
 
-
+/* Footer link */
 footer a {
-    color: white;
-    text-decoration: underline;
-}
-
-
-footer a:hover {
-    opacity: 0.8;
+    color: #1A90FF;
 }
