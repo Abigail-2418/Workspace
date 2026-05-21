@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Week 7 CSS Reset Research</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Week 7 — CSS Reset Research</h1>
+
+    <p>
+      This page is about CSS resets, Normalize.css,
+      and how developers use them in web design.
+    </p>
+  </header>
+
+  <nav>
+    <a href="../index.html">Back to Home</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Step 1 — Historical Foundation</h2>
+
+      <h3>Eric Meyer — Reset Reasoning</h3>
+
+      <p>
+        Eric Meyer created a CSS reset because browsers
+        used to style elements differently.
+      </p>
+
+      <p>
+        Things like margins, headings, and spacing could
+        look different depending on the browser.
+      </p>
+
+      <p>
+        His reset removed most default styles so developers
+        could start with a cleaner layout.
+      </p>
+
+      <h3>Problems CSS Resets Solved</h3>
+
+      <ul>
+        <li>Different heading sizes</li>
+        <li>Different spacing between browsers</li>
+        <li>Layouts looking inconsistent</li>
+        <li>Default browser styles getting in the way</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Step 2 — Modern Evolution</h2>
+
+      <h3>Josh Comeau — Modern CSS Reset</h3>
+
+      <p>
+        Josh Comeau’s reset feels more modern compared
+        to Eric Meyer’s version.
+      </p>
+
+      <p>
+        Instead of deleting basically everything,
+        Josh keeps some useful browser defaults and only
+        fixes the parts that usually cause problems.
+      </p>
+
+      <p>
+        His reset also focuses more on accessibility
+        and responsive design.
+      </p>
+
+      <h3>Differences Between Josh and Meyer</h3>
+
+      <ul>
+        <li>Josh uses border-box sizing</li>
+        <li>Josh improves accessibility</li>
+        <li>Josh keeps useful browser defaults</li>
+        <li>Meyer removes almost everything</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Step 3 — Wider Landscape</h2>
+
+      <h3>Jeff Starr — CSS Reset Collection</h3>
+
+      <p>
+        Jeff Starr’s article showed that there are a lot
+        of different ways developers make CSS resets.
+      </p>
+
+      <p>
+        Some are really aggressive and remove almost all
+        browser styling, while others only fix small
+        inconsistencies.
+      </p>
+
+      <h3>Other Reset Approaches</h3>
+
+      <h4>Normalize.css</h4>
+
+      <p>
+        Normalize.css keeps useful browser defaults while
+        making browsers behave more consistently.
+      </p>
+
+      <h4>sanitize.css</h4>
+
+      <p>
+        sanitize.css focuses more on accessibility and
+        modern browser improvements.
+      </p>
+
+      <h4>HTML5 Boilerplate</h4>
+
+      <p>
+        HTML5 Boilerplate includes resets, helper classes,
+        and accessibility improvements.
+      </p>
+    </section>
+
+    <section>
+      <h2>Critical Questions</h2>
+
+      <h3>Why Reset CSS?</h3>
+
+      <p>
+        CSS resets help make websites look more consistent
+        across browsers.
+      </p>
+
+      <p>
+        Without resets, browsers can apply different default
+        styles that affect layouts and spacing.
+      </p>
+
+      <h3>Why Use Josh’s Reset Instead of Meyer’s?</h3>
+
+      <p>
+        Josh’s reset makes more sense for modern web design
+        because browsers are already more consistent today.
+      </p>
+
+      <p>
+        His reset improves usability and accessibility
+        without removing everything.
+      </p>
+
+      <h3>How Do You Use CSS Resets?</h3>
+
+      <p>
+        CSS resets are usually connected with a link tag
+        inside the head section of HTML.
+      </p>
+
+      <p>
+        They can also be imported into another CSS file.
+      </p>
+
+      <h3>What Is a CSS Boilerplate?</h3>
+
+      <p>
+        A CSS boilerplate is basically a starter setup for
+        a website project.
+      </p>
+
+      <p>
+        It can include resets, helper classes,
+        accessibility fixes, and responsive setup.
+      </p>
+
+      <h3>Why Use a Boilerplate?</h3>
+
+      <p>
+        Boilerplates save time because developers do not
+        need to set everything up from scratch.
+      </p>
+
+      <p>
+        They can also help keep projects more organized.
+      </p>
+
+      <h3>Why Is Normalize.css Different?</h3>
+
+      <p>
+        Normalize.css is different because it does not try
+        to erase every browser style.
+      </p>
+
+      <p>
+        Instead, it keeps useful defaults while fixing
+        browser inconsistencies.
+      </p>
+    </section>
+
+    <section>
+      <h2>My Thoughts</h2>
+
+      <p>
+        I think CSS resets were probably more important in
+        the past because browsers used to behave a lot more
+        differently.
+      </p>
+
+      <p>
+        Josh Comeau’s reset feels more practical because it
+        improves the browser defaults instead of deleting
+        everything.
+      </p>
+
+      <p>
+        I also think Normalize.css makes sense because it
+        works with the browser instead of fighting against it.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+
+      <ul>
+        <li>
+          <a href="https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/" target="_blank">
+            Eric Meyer — Reset Reasoning
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.joshwcomeau.com/css/custom-css-reset/" target="_blank">
+            Josh Comeau — A Modern CSS Reset
+          </a>
+        </li>
+
+        <li>
+          <a href="https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/" target="_blank">
+            Jeff Starr — CSS Reset Collection
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
