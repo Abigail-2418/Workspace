@@ -1,0 +1,200 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root {
+  --brown: #854323;
+  --light-brown: #E1B083;
+  --white: #ffffff;
+  --text: #000000;
+
+  --green: #88BF48;
+  --yellow: #F8CB50;
+  --orange: #D86F36;
+  --dark-gray: #565059;
+  --light-gray: #efefef;
+}
+
+/* BODY */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--light-brown);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
+
+nav {
+  background-color: var(--brown);
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: #F59A4B;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* HEADER */
+
+header {
+  background-color: var(--brown);
+  color: white;
+  padding: 0 2rem 2.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #F59A4B;
+}
+
+/* MAIN */
+
+main {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* SECTIONS */
+
+section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  color: #8B2D18;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+section h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+section p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* STATS */
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #F2E7D4;
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+}
+
+/* COLOR BOXES */
+
+.green-box,
+.yellow-box,
+.orange-box,
+.dark-box {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.green-box {
+  background-color: var(--green);
+  color: #1f2a10;
+}
+
+.yellow-box {
+  background-color: var(--yellow);
+  color: #4f3d00;
+}
+
+.orange-box {
+  background-color: var(--orange);
+  color: white;
+}
+
+.dark-box {
+  background-color: var(--dark-gray);
+  color: white;
+}
+
+/* GRAY BOX */
+
+.gray-box {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* LISTS */
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--brown);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+footer p:last-child {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 1.2rem;
+  }
+
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Catan Field Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">← Back to Field Guide</a>
+  </nav>
+
+  <header>
+    <h1>Case Study: Catan Field Guide</h1>
+    <p>A reflection on design decisions and implementation</p>
+  </header>
+
+  <main>
+
+    <!-- PROJECT OVERVIEW -->
+
+    <section>
+      <h2> Project Overview</h2>
+
+      <p>
+        The Settler's Field Guide to Catan is an interactive documentation website designed to teach new players the mechanics and strategies of the board game Settlers of Catan. The project was built with a focus on creating a reference manual aesthetic while maintaining modern web design principles and full responsiveness across devices.
+      </p>
+
+      <div class="stats">
+
+        <div class="stat-box">
+          <h3>8</h3>
+          <p>Sections</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>2</h3>
+          <p>Pages</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>100%</h3>
+          <p>Responsive</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY I CHOSE THIS TOPIC -->
+
+    <section>
+      <h2> Why I Chose This Topic</h2>
+
+      <h3>Personal Connection</h3>
+
+      <p>
+        Settlers of Catan is one of the most popular strategy board games, introducing millions of players to modern tabletop gaming. The game's mechanics are straightforward yet deep, making it an ideal subject for structured documentation that could genuinely help new players learn.
+      </p>
+
+      <h3>Design Challenge</h3>
+
+      <p>
+        Creating a documentation-style website presented unique design challenges compared to typical marketing or portfolio sites. The content needed to be dense and informative while remaining visually engaging and easy to navigate. This required balancing information density with white space, hierarchy, and visual interest.
+      </p>
+
+      <h3>Technical Goals</h3>
+
+      <p>
+        This project served as an opportunity to demonstrate proficiency in React, React Router for multi-page navigation, Tailwind CSS for responsive styling, and creating a cohesive design system. The sidebar navigation and smooth scrolling sections required thoughtful state management and UX consideration.
+      </p>
+    </section>
+
+    <!-- DESIGN DECISIONS -->
+
+    <section>
+      <h2> Design Decisions</h2>
+
+      <div class="green-box">
+        <h3>Color Palette Strategy</h3>
+
+        <p>
+          The color scheme was directly inspired by Catan's resource system. Each resource has a distinct color in the game, and I incorporated these into the design to create thematic coherence:
+          <br>
+          The dominant emerald green serves as the primary color, evoking the island setting while providing excellent contrast for readability. Each section uses different accent colors to create visual distinction without breaking cohesion.
+        </p>
+      </div>
+
+      <div class="yellow-box">
+        <h3>Information Hierarchy</h3>
+
+        <p>
+          Each section follows a consistent structure: icon + heading, introductory paragraphs, highlighted information boxes, ordered or bulleted lists, and supporting images. This predictable pattern helps users scan content efficiently while the visual variety maintains engagement throughout the long-form documentation.
+        </p>
+      </div>
+
+      <div class="dark-box">
+        <h3>Decorative Elements</h3>
+
+        <p>
+          Hexagon shapes appear as background decorations throughout the design, directly referencing Catan's hexagonal game tiles. These elements were intentionally kept subtle (low opacity, outline-only) to enhance atmosphere without competing with content readability.
+          <br>
+          The gradient backgrounds transition between resource colors, creating visual flow while maintaining the field guide's cohesive aesthetic.
+        </p>
+      </div>
+    </section>
+
+    <!-- LAYOUT STRUCTURE -->
+
+    <section>
+      <h2> Layout Structure</h2>
+
+      <h3>Desktop Layout</h3>
+
+      <p>
+        On desktop viewports (1024px and above), the sidebar navigation remains fixed on the left side, providing constant access to all sections. This design pattern is common in documentation sites because it allows users to jump between sections without scrolling back to the top.
+      </p>
+
+      <div class="gray-box">
+
+        <ul>
+          <li>Sidebar: Fixed, 320px width, full height</li>
+          <li>Main Content: Left margin 320px, full width</li>
+          <li>Navigation: Active state highlighting, smooth scroll</li>
+        </ul>
+
+      </div>
+
+      <h3>Mobile: Collapsible Menu</h3>
+
+      <p>
+        On mobile devices, the sidebar transforms into a hamburger menu that slides in from the left. This preserves screen real estate while maintaining full navigation functionality. The menu automatically closes when a section is selected, providing smooth UX flow.
+      </p>
+
+      <div class="gray-box">
+
+        <ul>
+          <li>Sidebar: Slides in/out, overlay mode, z-index layering</li>
+          <li>CTA Buttons: Stacked vertically instead of horizontal</li>
+          <li>Decorative Elements: Reduced for performance</li>
+        </ul>
+
+      </div>
+      
+      <h3>Smooth Scroll Implementation</h3>
+
+      <p>
+        Clicking navigation items triggers smooth scrolling to the corresponding section. This creates a polished, modern experience while maintaining the feel of a single-page application. The active section updates based on scroll position, providing visual feedback about the user's current location in the document.
+      </p>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+
+    <section>
+      <h2> Typography and Color Choices</h2>
+
+      <h3>Font Strategy</h3>
+
+      <p>
+        The design uses the default system font stack provided by Tailwind CSS, which renders as San Francisco on macOS/iOS, Segoe UI on Windows, and Roboto on Android. This ensures optimal readability and performance without requiring custom font loading.
+      </p>
+
+      <div class="gray-box">
+
+        <ul>
+          <li>H1 for hero titles</li>
+          <li>H2 for section headings</li>
+          <li>Paragraphs for body text</li>
+        </ul>
+
+      </div>
+      
+    </section>
+
+    <!-- IMPROVEMENTS -->
+
+    <section>
+      <h2> What I Would Improve</h2>
+
+      <div class="green-box">
+        <h3>Interactive Elements</h3>
+
+        <p>
+          The current design is informational but largely static. Adding interactive components would enhance learning: a dice roll probability calculator, an interactive board generator, or a resource trading simulator. These tools would transform the guide from passive reading to active learning.
+        </p>
+      </div>
+
+      <div class="orange-box">
+        <h3>Search Functionality</h3>
+
+        <p>
+          As documentation grows, search becomes essential. Implementing a client-side search (using libraries like Fuse.js) would allow users to quickly find specific rules or strategies without manually navigating sections. This would particularly benefit users returning to refresh specific knowledge.
+        </p>
+      </div>
+
+      <div class="yellow-box">
+        <h3>Custom Illustrations</h3>
+
+        <p>
+          While the current design uses stock photography effectively, custom illustrations showing game mechanics (hex tile placement, road networks, trading examples) would significantly improve clarity. Visual diagrams of abstract concepts like "Longest Road" or "resource production" would enhance comprehension.
+        </p>
+      </div>
+
+      <div class="dark-box">
+        <h3>Accessibility Enhancements</h3>
+
+        <ul>
+          <li>Keyboard navigation for the sidebar menu</li>
+          <li>RIA labels for decorative elements and interactive components</li>
+          <li>Skip-to-content link for screen reader users</li>
+          <li>Color contrast verification for all text combinations</li>
+          <li>Focus indicators for all interactive elements</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- REFLECTION -->
+
+    <section>
+      <h2> Reflection & Takeaways</h2>
+
+      <p>
+        Building the Settler's Field Guide to Catan was an exercise in balancing dense informational content with engaging visual design. The project reinforced the importance of consistent structure, thoughtful color application, and responsive design patterns that work across devices.
+      </p>
+
+      <p>
+        This project demonstrated that good documentation design is about more than organizing information—it's about creating a reading experience that feels purposeful, navigable, and visually coherent. The skills developed here apply directly to technical documentation, educational platforms, and any content-heavy web application.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Abigail Nosov | Case Study</p>
+    <p>Part of "The Settler’s Field Guide to Catan"</p>
+  </footer>
+
+</body>
+</html>
+
