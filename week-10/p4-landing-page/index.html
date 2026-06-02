@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whisk &amp; Honey &mdash; Fresh Baked Daily</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <a href="#">
+      <img id="header-img" src="images/honey-drop-icon.svg" alt="Whisk and Honey brand icon of a honey drop">
+      <span>Whisk &amp; Honey</span>
+    </a>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#hero">Home</a>
+      <a class="nav-link" href="#data">Menu</a>
+      <a class="nav-link" href="#features">About</a>
+      <a class="nav-link" href="#contact">Order Online</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#hero">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────── -->
+    <section id="hero">
+      <img src="images/hero-croissants.png" alt="Fresh golden croissants arranged beautifully on a table">
+      <p>Fresh Baked Daily</p>
+      <h1>Fresh Ingredients, Bakery-Inspired Desserts, and Quick Cute Aesthetic Breakfast Options for Busy Lifestyles.</h1>
+      <p>Fresh pastries and sweet moments made for cozy mornings.</p>
+      <div>
+        <a href="#contact" class="btn-primary">Order Now</a>
+        <a href="#data" class="btn-secondary">Explore the Menu</a>
+      </div>
+      <div class="hero-badges">
+        <div>
+          <span class="icon icon-flower"></span>
+          <span>Made Fresh Daily</span>
+        </div>
+        <div>
+          <span class="icon icon-honeypot"></span>
+          <span>Local Ingredients</span>
+        </div>
+        <div>
+          <span class="icon icon-box"></span>
+          <span>Order Online</span>
+        </div>
+        <div>
+          <span class="icon icon-heart"></span>
+          <span>Baked with Love</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── VIDEO ────────────────────────────────────────── -->
+    <section id="video">
+      <h2>A Little Peek Inside Our Kitchen</h2>
+      <p>From prep to plate — here's the quiet magic behind every pastry we make.</p>
+      <div class="video-wrapper">
+        <video controls poster="images/video-kitchen.png">
+          <!-- TODO: Replace with actual video file (e.g. videos/kitchen-tour.mp4).
+               Figma only contains a thumbnail + play-button overlay + "2:34" timestamp,
+               not a video file. Upload an MP4 (H.264) to satisfy P4 video requirement. -->
+          <source src="" type="video/mp4">
+        </video>
+        <span class="video-duration">2:34</span>
+      </div>
+      <p>Every morning starts at 4am. Every bite is worth it.</p>
+    </section>
+
+    <!-- ─── FEATURES ─────────────────────────────────────── -->
+    <section id="features">
+      <h2>Why Everyone Loves Whisk &amp; Honey</h2>
+      <p>Small batch. Big love. Made for you.</p>
+      <div class="features-grid">
+        <article>
+          <span class="icon icon-flower"></span>
+          <h3>Cozy &amp; Fresh</h3>
+          <p>Every pastry is baked fresh each morning using seasonal ingredients sourced from local farms warm from the oven, made with quiet care.</p>
+        </article>
+        <article>
+          <span class="icon icon-box"></span>
+          <h3>Quick &amp; Convenient</h3>
+          <p>Order online before 9am for same-day pickup. Perfect for busy mornings that still deserve something beautiful and unhurried.</p>
+        </article>
+        <article>
+          <span class="icon icon-heart"></span>
+          <h3>Made with Heart</h3>
+          <p>From our kitchen to your table, every item is crafted with intention. Quality you can actually taste in every single golden bite.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ─── DATA ─────────────────────────────────────────── -->
+    <section id="data">
+      <h2>Our Sweet Menu</h2>
+      <p>Fresh selections made with care, every single morning.</p>
+      <div class="table-scroll" style="overflow-x: auto;">
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Butter Croissant</td>
+              <td>Flaky, golden layers baked fresh each morning</td>
+              <td>$4.50</td>
+            </tr>
+            <tr>
+              <td>Seasonal Pastry Box</td>
+              <td>A curated selection of 6 rotating seasonal pastries</td>
+              <td>$28.00</td>
+            </tr>
+            <tr>
+              <td>Honey Cake Slice</td>
+              <td>Light sponge with local wildflower honey cream</td>
+              <td>$6.75</td>
+            </tr>
+            <tr>
+              <td>Breakfast Cookie Pack</td>
+              <td>Oat, dark chocolate &amp; sea salt — pack of 4</td>
+              <td>$12.00</td>
+            </tr>
+            <tr>
+              <td>Custom Celebration Cake</td>
+              <td>Made to order — consult us for flavors &amp; design</td>
+              <td>From $65</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <a href="#" class="btn-secondary">View Full Menu</a>
+    </section>
+
+    <!-- ─── CONTACT ──────────────────────────────────────── -->
+    <section id="contact">
+      <span class="icon icon-flower"></span>
+      <h2>Let's Make Something Sweet Together</h2>
+      <p>Custom orders, catering inquiries, or just saying hello — we love hearing from you.</p>
+      <form action="#">
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" id="submit">Send a Sweet Note</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <img src="images/honey-drop-icon-footer.svg" alt="Whisk and Honey brand icon of a honey drop">
+        <span>Whisk &amp; Honey</span>
+        <p>Fresh pastries and sweet moments made for cozy mornings. Every day deserves something baked with love.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <nav>
+          <a href="#hero">Home</a>
+          <a href="#data">Menu</a>
+          <a href="#features">About</a>
+          <a href="#hero">Order Online</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Follow Along</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Follow Whisk and Honey on Instagram">
+            <span class="icon icon-instagram"></span>
+          </a>
+          <a href="#" aria-label="Follow Whisk and Honey on Facebook">
+            <span class="icon icon-facebook"></span>
+          </a>
+          <a href="#" aria-label="Follow Whisk and Honey on Twitter">
+            <span class="icon icon-twitter"></span>
+          </a>
+        </div>
+        <p>@whiskandhoney</p>
+      </div>
+    </div>
+    <p>&copy; 2025 Whisk &amp; Honey. All rights reserved. Made with love and a lot of butter.</p>
+  </footer>
+
+</body>
+</html>
