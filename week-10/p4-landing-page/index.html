@@ -13,13 +13,14 @@
       <img id="header-img" src="images/honey-drop-icon.svg" alt="Whisk and Honey brand icon of a honey drop" width="28" height="28">
       <span>Whisk &amp; Honey</span>
     </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
     <nav id="nav-bar">
       <a class="nav-link" href="#hero">Home</a>
       <a class="nav-link" href="#data">Menu</a>
       <a class="nav-link" href="#features">About</a>
       <a class="nav-link" href="#contact">Order Online</a>
-      <a class="nav-link" href="#contact">Contact</a>
-      <a class="nav-link" href="#hero">Order Now</a>
+      <a class="nav-link" href="#footer-contact">Contact</a>
+      <a class="nav-link" href="#contact">Order Now</a>
     </nav>
   </header>
 
@@ -27,29 +28,30 @@
 
     <!-- ─── HERO ─────────────────────────────────────────── -->
     <section id="hero">
-      <img src="images/hero-croissants.png" alt="Fresh golden croissants arranged beautifully on a table" width="939" height="761">
-      <p>Fresh Baked Daily</p>
-      <h1>Fresh Ingredients, Bakery-Inspired Desserts, and Quick Cute Aesthetic Breakfast Options for Busy Lifestyles.</h1>
-      <p>Fresh pastries and sweet moments made for cozy mornings.</p>
-      <div>
-        <a href="#contact" class="btn-primary">Order Now</a>
-        <a href="#data" class="btn-secondary">Explore the Menu</a>
+      <div class="hero-content">
+        <p>Fresh Baked Daily</p>
+        <h1>Fresh Ingredients, Bakery-Inspired Desserts, and Quick Cute Aesthetic Breakfast Options for Busy Lifestyles.</h1>
+        <p>Fresh pastries and sweet moments made for cozy mornings.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Order Now</a>
+          <a href="#data" class="btn-secondary">Explore the Menu</a>
+        </div>
       </div>
       <div class="hero-badges">
         <div>
-          <span class="icon icon-flower"></span>
+          <img src="images/cil-flower.svg" alt="" class="badge-icon" width="18" height="18">
           <span>Made Fresh Daily</span>
         </div>
         <div>
-          <span class="icon icon-honeypot"></span>
+          <img src="images/game-icons-honeypot.svg" alt="" class="badge-icon" width="18" height="18">
           <span>Local Ingredients</span>
         </div>
         <div>
-          <span class="icon icon-box"></span>
+          <img src="images/solar-box-outline.svg" alt="" class="badge-icon" width="18" height="18">
           <span>Order Online</span>
         </div>
         <div>
-          <span class="icon icon-heart"></span>
+          <img src="images/octicon-heart-24.svg" alt="" class="badge-icon" width="18" height="18">
           <span>Baked with Love</span>
         </div>
       </div>
@@ -60,14 +62,12 @@
       <h2>A Little Peek Inside Our Kitchen</h2>
       <p>From prep to plate — here's the quiet magic behind every pastry we make.</p>
       <div class="video-wrapper">
-        <video controls poster="images/video-kitchen.png">
-          <!-- TODO: Replace with actual video file (e.g. videos/kitchen-tour.mp4).
-               Figma only contains a thumbnail + play-button overlay + "2:34" timestamp,
-               not a video file. Upload an MP4 (H.264) to satisfy P4 video requirement. -->
-          <source src="" type="video/mp4">
-        </video>
-        <span class="video-duration">2:34</span>
-      </div>
+  <iframe
+    src="https://www.youtube.com/embed/qnbKFuzJ_lw"
+    title="Whisk and Honey Bakery Video"
+    allowfullscreen>
+  </iframe>
+</div>
       <p>Every morning starts at 4am. Every bite is worth it.</p>
     </section>
 
@@ -77,17 +77,23 @@
       <p>Small batch. Big love. Made for you.</p>
       <div class="features-grid">
         <article>
-          <span class="icon icon-flower"></span>
+          <span class="icon-circle">
+            <img src="images/cil-flower.svg" alt="" width="20" height="20">
+          </span>
           <h3>Cozy &amp; Fresh</h3>
           <p>Every pastry is baked fresh each morning using seasonal ingredients sourced from local farms warm from the oven, made with quiet care.</p>
         </article>
         <article>
-          <span class="icon icon-box"></span>
+          <span class="icon-circle">
+            <img src="images/solar-box-outline.svg" alt="" width="20" height="20">
+          </span>
           <h3>Quick &amp; Convenient</h3>
           <p>Order online before 9am for same-day pickup. Perfect for busy mornings that still deserve something beautiful and unhurried.</p>
         </article>
         <article>
-          <span class="icon icon-heart"></span>
+          <span class="icon-circle">
+            <img src="images/octicon-heart-24.svg" alt="" width="20" height="20">
+          </span>
           <h3>Made with Heart</h3>
           <p>From our kitchen to your table, every item is crafted with intention. Quality you can actually taste in every single golden bite.</p>
         </article>
@@ -98,7 +104,7 @@
     <section id="data">
       <h2>Our Sweet Menu</h2>
       <p>Fresh selections made with care, every single morning.</p>
-      <div class="table-scroll" style="overflow-x: auto;">
+      <div class="table-scroll">
         <table id="data-table">
           <thead>
             <tr>
@@ -141,10 +147,10 @@
 
     <!-- ─── CONTACT ──────────────────────────────────────── -->
     <section id="contact">
-      <span class="icon icon-flower"></span>
+      <img src="images/cil-flower.svg" alt="" class="contact-icon" width="24" height="24">
       <h2>Let's Make Something Sweet Together</h2>
       <p>Custom orders, catering inquiries, or just saying hello — we love hearing from you.</p>
-      <form action="#">
+      <form action="#" id="contact-form">
         <div>
           <label for="name">Full Name</label>
           <input type="text" id="name" name="name" required>
@@ -163,7 +169,7 @@
 
   </main>
 
-  <footer>
+  <footer id="footer-contact">
     <div class="footer-grid">
       <div>
         <img src="images/honey-drop-icon-footer.svg" alt="Whisk and Honey brand icon of a honey drop" width="28" height="28">
@@ -183,21 +189,23 @@
       <div>
         <h4>Follow Along</h4>
         <div class="social-links">
-          <a href="#" aria-label="Follow Whisk and Honey on Instagram">
-            <span class="icon icon-instagram"></span>
-          </a>
-          <a href="#" aria-label="Follow Whisk and Honey on Facebook">
-            <span class="icon icon-facebook"></span>
-          </a>
-          <a href="#" aria-label="Follow Whisk and Honey on Twitter">
-            <span class="icon icon-twitter"></span>
-          </a>
+          <a href="#" aria-label="Follow Whisk and Honey on Instagram"></a>
+          <a href="#" aria-label="Follow Whisk and Honey on Facebook"></a>
+          <a href="#" aria-label="Follow Whisk and Honey on Twitter"></a>
         </div>
         <p>@whiskandhoney</p>
       </div>
     </div>
-    <p>&copy; 2025 Whisk &amp; Honey. All rights reserved. Made with love and a lot of butter.</p>
+    <p>&copy; 2026 Whisk &amp; Honey. All rights reserved. Made with love and a lot of butter.</p>
   </footer>
 
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+    const nav = document.getElementById('nav-bar');
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    nav.classList.toggle('open');
+    this.setAttribute('aria-expanded', !expanded);
+  });
+</script>
 </body>
 </html>
