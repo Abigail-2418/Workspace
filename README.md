@@ -1,57 +1,113 @@
-**Abigail Nosov**
+**DESN368 Portfolio Repository**
 
----
 
-## **About**
-This is where I show off my coding skills. I am a VCD student at Eastern Washington University. I am still learning how to code, so don't judge my work so hard just yet. 
+## **About This Repository**
 
----
+This repository documents my journey through DESN368, where I learned the foundations of front-end web development through HTML and CSS. Throughout the quarter, I explored the relationship between design and code while building responsive websites, experimenting with visual systems, and developing a deeper understanding of how websites are structured and styled.
 
-## **What is Inside**
-- week-1 — Newspaper layout, Lost Pet flyer, Favorite Band page
-- week-2 — HTML 101 exercises, Recipe page, HTML Skeleton
-- week-3 — CSS foundations, Recipe styling 
+View Live Portfolio: [Insert Portfolio URL]
 
----
+View Learning Log: [Insert Learning Log URL] — Weekly exercises, assignments, and project documentation completed throughout the quarter.
 
-## 🛠️ **My Toolkit**
-- **GitHub Profile:** https://github.com/Abigail-2418
-- **Workspace Repository:** https://github.com/Abigail-2418/Workspace
-- **Figma:** Abigail
-- **CodePen:** https://codepen.io/Abigail_2418
 
----
+## **Design Direction**
 
-## 🎯 **Course Progress**
+For my portfolio, I pursued an editorial, creative, and professional aesthetic that reflects both my design background and growing front-end development skills. I wanted the site to feel approachable and personal while maintaining a polished visual hierarchy through strong typography, soft neutral backgrounds, and rich accent colors.
 
-- [X] **Week 1:** https://github.com/Abigail-2418/Workspace/tree/main/week-1
-- [X] **Week 2:** https://github.com/Abigail-2418/Workspace/tree/main/week-2
-- [ ] **Week 3:** 
-- [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
-- [ ] **Week 5:** F0rm5 & 1nput5
-- [ ] **Week 6:** Fl3xb0x M45t3ry
-- [ ] **Week 7:** Tr1but3 P4g3
-- [ ] **Week 8:** Gr1d Sy5t3m5
-- [ ] **Week 9:** Pr0duct L4nd1ng
-- [ ] **Week 10:** P0rtf0l10 Sy5t3m
-- [ ] **Finals:** Sh1p 1t  
 
----
+Header Font: Kalnia
+Body Font: Poppins
+Primary Color: #8B1E3F
+Accent Color: #E8B4B8
+Background: #F8F4EF
 
-## 🔗 **Course Resources**
-### **Primary Course Hub**
-- **📌 Milanote Course Home** - [Course board with assignments & resources](https://app.milanote.com/1W6e931MhvTVaN?p=1kaC1j7112i)
+View Figma File: [Insert Figma URL]
 
-### **Learning Platforms**
-- **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)
-- **🎨 Figma Team** - [Design projects](https://www.figma.com/team_invite/redeem/x4YhkxdsvcOhUte2KX7Zwm?t=MxznjhsFuM43uNyb-21)
 
-### **Practice & Reference**
-- **📖 Course Syllabus** - [Course policies and schedule](https://code-and-design.org/1/syllabus/)  
-  
+## **Featured Projects**
 
-### **Support**
-- **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)
-- **🏢 Office Hours:** Mon/Wed 1–2:30pm, Thurs 1–2pm
-- **📍 Location:** Catalyst Room 167  
+*The Recipe*
 
+A responsive recipe website that demonstrates semantic HTML structure, accessible content organization, and visual hierarchy.
+
+View Project: [Insert Link]
+
+
+*Tribute Site*
+
+A tribute webpage designed to celebrate an influential figure through thoughtful typography, research, and storytelling.
+
+View Project: [Insert Link]
+
+
+*Field Guide*
+
+An interactive documentation website that showcases responsive layouts, Flexbox implementation, and information architecture.
+
+View Project: [Insert Link]
+
+
+*Product Landing Page*
+
+A conversion-focused landing page that combines marketing principles, visual design, and responsive web development techniques.
+
+View Project: [Insert Link]
+
+
+## **Technical Skills Demonstrated**
+
+Semantic HTML5
+
+CSS Flexbox and Grid Layout
+
+Responsive Design with Media Queries
+
+CSS Custom Properties (Variables)
+
+CSS Transitions and Interactive States
+
+Component-Based Design Thinking
+
+Git and GitHub Version Control
+
+
+## **Archive**
+
+Course Log — Detailed weekly documentation and coursework reflections
+
+Learning Log — Collection of exercises, assignments, and project links from throughout the quarter
+
+
+## **Credits & Citations**
+
+*Assets*
+
+
+Google Fonts (Kalnia and Poppins)
+
+Personal photographs and project screenshots
+
+Icons from Font Awesome
+
+
+*Tutorials & Resources*
+
+
+MDN Web Docs
+
+W3Schools
+
+GitHub Documentation
+
+Course lectures, demonstrations, and assignment materials
+
+
+*AI Assistance*
+
+
+ChatGPT was used at the end of this course as a learning resource for brainstorming, debugging, code review, documentation assistance, and portfolio planning. All final design decisions, code implementation, revisions, and submitted work were completed and reviewed by the author.
+
+
+## **Reflection**
+
+→ Read Full Reflection on Portfolio Site: [Insert Reflection Page URL]
