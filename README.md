@@ -17,9 +17,9 @@ For my portfolio, I pursued an editorial, creative, and professional aesthetic t
 
 Header Font: Kalnia
 Body Font: Poppins
-Primary Color: #8B1E3F
-Accent Color: #E8B4B8
-Background: #F8F4EF
+Primary Color: #D02C2F
+Accent Color: #FFCFCB
+Background: #FBF8F1
 
 View Figma File: [Insert Figma URL]
 
